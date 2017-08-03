@@ -1,0 +1,81 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+ul{
+	padding: 0;
+	list-style: none;
+}
+li {
+	font: normal 16px Arial, Helvetica, sans-serif;
+}
+h3 {
+	font: normal 18px Arial, Helvetica, sans-serif;
+	color: #333
+}
+.container {
+	width: 90%;
+	margin: auto;
+}
+.navbar {
+	background-color: #222222;
+	padding: 10px;
+	border-radius: 18px;
+}
+.navbar h1 {
+	font-family: Tahoma;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+}
+.sobre {
+	width: 50%;
+	margin: 40px auto;
+	padding: 20px;
+	background-color: #333;
+	border: 2px white dotted;
+	border-radius: 18px;
+
+}
+.sobre h2 {
+	font-family: Tahoma;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.sobre p {
+	font-family: Tahoma;
+	text-align: center;
+	font-size: 16px;
+	text-align: justify;
+	color: white;
+	margin-top: 10px;
+}
+
+.clear {
+	clear: both;
+}
+.capa-desc {	
+	float: left; /*  Flutua a esquerda colocando uma caixa ao lado da outra */
+	width: 40%; /*  Divide a largura total em tres partes iguais */
+	margin: auto;
+	margin-left: 35px;
+	box-sizing: border-box; /*  faz com que desconto o que estourar direto do Width geral */
+}
+img{
+	border: 2px solid black;
+	border-radius: 18px;
+}
+#info {
+	margin-top: 70px;
+	padding: 10px;
+	border: 2px dotted black;
+	border-radius: 18px;
+}
+#capa {
+	margin-left: 20px;
+}
+
